@@ -1,0 +1,424 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "dnt",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 7,
+    "RecordedBrowser": "Firefox",
+    "RecordingDate": "фев-03-2024",
+    "RecordingDuration": 26828,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1706998877,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 47104,
+    "TotalBytesSent": 13288,
+    "TotalRequests": 23,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:94.0) Gecko/20100101 Firefox/94.0"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "localhost",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[::1]",
+          "IncludeInScript": true,
+          "Name": "localhost",
+          "Port": 1080,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 605,
+              "HttpStatus": 200,
+              "Size": 733,
+              "URL": "http://localhost:1080/WebTours/images/in_itinerary.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 603,
+              "HttpStatus": 200,
+              "Size": 831,
+              "URL": "http://localhost:1080/WebTours/images/cancelreservation.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 601,
+              "HttpStatus": 200,
+              "Size": 688,
+              "URL": "http://localhost:1080/WebTours/images/home.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 598,
+              "HttpStatus": 200,
+              "Size": 1482,
+              "URL": "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 596,
+              "HttpStatus": 200,
+              "Size": 742,
+              "URL": "http://localhost:1080/WebTours/images/cancelallreservations.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 32,
+              "EventId": 591,
+              "HttpStatus": 200,
+              "Size": 25968,
+              "URL": "http://localhost:1080/cgi-bin/itinerary.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 588,
+              "HttpStatus": 200,
+              "Size": 591,
+              "URL": "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 586,
+              "HttpStatus": 200,
+              "Size": 726,
+              "URL": "http://localhost:1080/WebTours/images/flights.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 582,
+              "HttpStatus": 200,
+              "Size": 751,
+              "URL": "http://localhost:1080/WebTours/images/signoff.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 15,
+              "EventId": 580,
+              "HttpStatus": 200,
+              "Size": 688,
+              "URL": "http://localhost:1080/WebTours/images/in_home.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 577,
+              "HttpStatus": 200,
+              "Size": 733,
+              "URL": "http://localhost:1080/WebTours/images/itinerary.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 573,
+              "HttpStatus": 200,
+              "Size": 1482,
+              "URL": "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 570,
+              "HttpStatus": 200,
+              "Size": 919,
+              "URL": "http://localhost:1080/cgi-bin/login.pl?intro=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 565,
+              "HttpStatus": 200,
+              "Size": 481,
+              "URL": "http://localhost:1080/cgi-bin/login.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 505,
+              "HttpStatus": 200,
+              "Size": 679,
+              "URL": "http://localhost:1080/WebTours/images/mer_login.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 494,
+              "HttpStatus": 200,
+              "Size": 1490,
+              "URL": "http://localhost:1080/cgi-bin/nav.pl?in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 479,
+              "HttpStatus": 200,
+              "Size": 1361,
+              "URL": "http://localhost:1080/WebTours/home.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 473,
+              "HttpStatus": 200,
+              "Size": 4187,
+              "URL": "http://localhost:1080/WebTours/images/webtours.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 463,
+              "HttpStatus": 200,
+              "Size": 686,
+              "URL": "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 455,
+              "HttpStatus": 200,
+              "Size": 601,
+              "URL": "http://localhost:1080/WebTours/images/hp_logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 451,
+              "HttpStatus": 404,
+              "Size": 209,
+              "URL": "http://localhost:1080/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 446,
+              "HttpStatus": 200,
+              "Size": 710,
+              "URL": "http://localhost:1080/WebTours/header.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 378,
+              "HttpStatus": 200,
+              "Size": 366,
+              "URL": "http://localhost:1080/WebTours/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "firefox.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.107.221.82",
+          "IncludeInScript": false,
+          "Name": "detectportal.firefox.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 631,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 46,
+              "EventId": 619,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 553,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 541,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 537,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 32,
+              "EventId": 521,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 513,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 497,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 476,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 412,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 393,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 2
+}

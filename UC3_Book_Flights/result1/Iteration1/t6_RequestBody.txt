@@ -1,0 +1,2 @@
+"outboundFlight=382%3B1187%3B02%2F04%2F2024&numPassengers=1&advanceDiscount=0&seatType=Economy&"
+"seatPref=Window&reserveFlights.x=50&reserveFlights.y=10"

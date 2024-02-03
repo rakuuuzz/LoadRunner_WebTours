@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Andrey.Home-PC\Documents\VuGen\Scripts\RegisterNewUser
+-ID:\Program Files\LoadRunner\include
+-ec:\users\andrey.home-pc\documents\vugen\scripts\registernewuser\\logfile.log
+c:\users\andrey.home-pc\documents\vugen\scripts\registernewuser\\combined_RegisterNewUser.c
+c:\users\andrey.home-pc\documents\vugen\scripts\registernewuser\\pre_cci.c

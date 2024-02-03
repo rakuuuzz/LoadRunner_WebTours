@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Andrey.Home-PC\Documents\VuGen\Scripts\FindFlightsWithOutPayment
+-ID:\Program Files\LoadRunner\include
+-ec:\users\andrey.home-pc\documents\vugen\scripts\findflightswithoutpayment\\logfile.log
+c:\users\andrey.home-pc\documents\vugen\scripts\findflightswithoutpayment\\combined_FindFlightsWithOutPayment.c
+c:\users\andrey.home-pc\documents\vugen\scripts\findflightswithoutpayment\\pre_cci.c

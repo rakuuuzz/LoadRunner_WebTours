@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Andrey.Home-PC\Documents\VuGen\Scripts\UC5_Delete_From_Itinerary
+-ID:\Program Files\LoadRunner\include
+-ec:\users\andrey.home-pc\documents\vugen\scripts\uc5_delete_from_itinerary\\logfile.log
+c:\users\andrey.home-pc\documents\vugen\scripts\uc5_delete_from_itinerary\\combined_UC5_Delete_From_Itinerary.c
+c:\users\andrey.home-pc\documents\vugen\scripts\uc5_delete_from_itinerary\\pre_cci.c
