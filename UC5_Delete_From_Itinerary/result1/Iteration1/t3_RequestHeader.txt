@@ -1,17 +1,18 @@
-GET /cgi-bin/welcome.pl?page=itinerary HTTP/1.1
-Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home
-Upgrade-Insecure-Requests: 1
+POST /cgi-bin/login.pl HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://localhost:1080/cgi-bin/nav.pl?in=home
 Origin: http://localhost:1080
-Sec-Fetch-User: ?1
 Sec-Fetch-Dest: frame
 Sec-Fetch-Site: same-origin
 Sec-Fetch-Mode: navigate
 DNT: 1
+Sec-Fetch-User: ?1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:94.0) Gecko/20100101 Firefox/94.0
 Accept-Encoding: gzip, deflate
 Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
 Accept: */*
 Connection: Keep-Alive
 Host: localhost:1080
-Cookie: MSO=SID&1707000662
+Cookie: MSO=SID&1707056651
+Content-Length: 129
 

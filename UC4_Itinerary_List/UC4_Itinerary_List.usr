@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="go_to_WebTours__*delimiter*__Login__*delimiter*__search_Itinerary"
+Order="go_to_WebTours__*delimiter*__Login__*delimiter*__search_Itinerary__*delimiter*__UC4_Itinerary_List"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -62,3 +62,4 @@ ActiveRunName=result1
 go_to_WebTours=
 Login=
 search_Itinerary=
+UC4_Itinerary_List=

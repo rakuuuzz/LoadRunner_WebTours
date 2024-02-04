@@ -1,6 +1,10 @@
 Action()
 {
-
+	
+	lr_start_transaction("UC5_Delete_From_Itinerary");
+	
+	lr_start_transaction("go_to_WebTours");
+	
 	web_add_auto_header("Sec-Fetch-Dest", 
 		"document");
 
@@ -16,6 +20,18 @@ Action()
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
+/*Correlation comment - Do not change!  Original value='138274.520939652HVVctQfpzHAiDDDDtczHtpQHtAcf' Name ='userSession' Type ='ResponseBased'*/
+	web_reg_save_param_attrib(
+		"ParamName=userSession",
+		"TagName=input",
+		"Extract=value",
+		"Name=userSession",
+		"Type=hidden",
+		SEARCH_FILTERS,
+		"IgnoreRedirections=No",
+		"RequestUrl=*/nav.pl*",
+		LAST);
+
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours/", 
 		"TargetFrame=", 
@@ -25,6 +41,12 @@ Action()
 		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		LAST);
+		
+	lr_end_transaction("go_to_WebTours", LR_AUTO);
+	
+	
+	
+	lr_start_transaction("Login");
 
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
@@ -44,24 +66,29 @@ Action()
 
 	lr_think_time(5);
 
-	web_submit_data("login.pl", 
-		"Action=http://localhost:1080/cgi-bin/login.pl", 
-		"Method=POST", 
-		"TargetFrame=body", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home", 
-		"Snapshot=t4.inf", 
-		"Mode=HTML", 
-		ITEMDATA, 
-		"Name=userSession", "Value=138274.520939652HVVctQfpzHAiDDDDtczHtpQHtAcf", ENDITEM, 
-		"Name=username", "Value=rakuz", ENDITEM, 
-		"Name=password", "Value=1234qwer", ENDITEM, 
-		"Name=login.x", "Value=48", ENDITEM, 
-		"Name=login.y", "Value=3", ENDITEM, 
-		"Name=JSFormSubmit", "Value=off", ENDITEM, 
+	web_submit_data("login.pl",
+		"Action=http://localhost:1080/cgi-bin/login.pl",
+		"Method=POST",
+		"TargetFrame=body",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home",
+		"Snapshot=t4.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=userSession", "Value={userSession}", ENDITEM,
+		"Name=username", "Value={login}", ENDITEM,
+		"Name=password", "Value={password}", ENDITEM,
+		"Name=login.x", "Value=48", ENDITEM,
+		"Name=login.y", "Value=3", ENDITEM,
+		"Name=JSFormSubmit", "Value=off", ENDITEM,
 		LAST);
-
 	
+	lr_end_transaction("Login", LR_AUTO);
+	
+
+
+	lr_start_transaction("search_Itinerary");
+
 	
 	web_revert_auto_header("Sec-Fetch-User");
 
@@ -90,6 +117,11 @@ Action()
 		"Snapshot=t5.inf", 
 		"Mode=HTML", 
 		LAST);
+		
+	lr_end_transaction("search_Itinerary", LR_AUTO);
+	
+	lr_start_transaction("delete_Itinerary");
+
 	
 		web_submit_data("itinerary.pl",
 		"Action=http://localhost:1080/cgi-bin/itinerary.pl",
@@ -113,6 +145,12 @@ Action()
 		"Name=.cgifields", "Value=4", ENDITEM,
 		"Name=.cgifields", "Value=5", ENDITEM,
 		LAST);
+	
+	lr_end_transaction("delete_Itinerary", LR_AUTO);
+
+
+	lr_end_transaction("UC5_Delete_From_Itinerary", LR_AUTO);
+
 
 	return 0;
 }

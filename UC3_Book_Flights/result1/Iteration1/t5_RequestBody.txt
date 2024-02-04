@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=Los+Angeles&departDate=02%2F04%2F2024&arrive=Sydney&returnDate=%7Bret"
-"urnDate%7D&numPassengers=1&seatPref=Window&seatType=Economy&findFlights.x=56&findFlights.y=7&."
-"cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref"

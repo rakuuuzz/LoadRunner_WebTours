@@ -1,2 +1,0 @@
-"userSession=138274.520939652HVVctQfpzHAiDDDDtczHtpQHtAcf&username=rakuz&password=1234qwer&logi"
-"n.x=48&login.y=3&JSFormSubmit=off"

@@ -1,7 +1,7 @@
 Action()
 {
 
-	lr_start_transaction("UC5_Register_New_Users");
+	lr_start_transaction("UC6_Register_New_Users");
 
 	lr_start_transaction("go_to_WebTours");
 
@@ -125,7 +125,7 @@ Action()
 		LAST);
 	lr_end_transaction("ContinueAfterReg", LR_AUTO);
 
-	lr_end_transaction("UC5_Register_New_Users", LR_AUTO);
+	lr_end_transaction("UC6_Register_New_Users", LR_AUTO);
 	
 	return 0;
 }

@@ -1,7 +1,10 @@
 Action()
 {
 
-lr_start_transaction("go_to_WebTours");
+	lr_start_transaction("UC4_Itinerary_List");
+
+	
+	lr_start_transaction("go_to_WebTours");
 
 
 	web_add_auto_header("Sec-Fetch-Dest", 
@@ -110,6 +113,8 @@ lr_start_transaction("go_to_WebTours");
 		LAST);
 		
 	lr_end_transaction("search_Itinerary", LR_AUTO);
+	
+	lr_end_transaction("UC4_Itinerary_List", LR_AUTO);
 
 
 	return 0;

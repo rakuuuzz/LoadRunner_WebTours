@@ -1,4 +1,4 @@
-# 1 "c:\\users\\andrey.home-pc\\documents\\vugen\\scripts\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c"
+# 1 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c"
 # 1 "D:\\Program Files\\LoadRunner\\include/lrun.h" 1
  
  
@@ -966,7 +966,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\andrey.home-pc\\documents\\vugen\\scripts\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
+# 1 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
 
 # 1 "D:\\Program Files\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1132,7 +1132,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\andrey.home-pc\\documents\\vugen\\scripts\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
+# 2 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
 
 # 1 "globals.h" 1
 
@@ -2591,19 +2591,23 @@ void
 
 
 
-# 3 "c:\\users\\andrey.home-pc\\documents\\vugen\\scripts\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
+# 3 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\andrey.home-pc\\documents\\vugen\\scripts\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
+# 4 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
 
 # 1 "Action.c" 1
 Action()
 {
-
+	
+	lr_start_transaction("UC5_Delete_From_Itinerary");
+	
+	lr_start_transaction("go_to_WebTours");
+	
 	web_add_auto_header("Sec-Fetch-Dest", 
 		"document");
 
@@ -2619,6 +2623,18 @@ Action()
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
+ 
+	web_reg_save_param_attrib(
+		"ParamName=userSession",
+		"TagName=input",
+		"Extract=value",
+		"Name=userSession",
+		"Type=hidden",
+		"SEARCH_FILTERS",
+		"IgnoreRedirections=No",
+		"RequestUrl=*/nav.pl*",
+		"LAST");
+
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours/", 
 		"TargetFrame=", 
@@ -2628,6 +2644,12 @@ Action()
 		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		"LAST");
+		
+	lr_end_transaction("go_to_WebTours", 2);
+	
+	
+	
+	lr_start_transaction("Login");
 
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
@@ -2647,24 +2669,29 @@ Action()
 
 	lr_think_time(5);
 
-	web_submit_data("login.pl", 
-		"Action=http://localhost:1080/cgi-bin/login.pl", 
-		"Method=POST", 
-		"TargetFrame=body", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home", 
-		"Snapshot=t4.inf", 
-		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=userSession", "Value=138274.520939652HVVctQfpzHAiDDDDtczHtpQHtAcf", "ENDITEM", 
-		"Name=username", "Value=rakuz", "ENDITEM", 
-		"Name=password", "Value=1234qwer", "ENDITEM", 
-		"Name=login.x", "Value=48", "ENDITEM", 
-		"Name=login.y", "Value=3", "ENDITEM", 
-		"Name=JSFormSubmit", "Value=off", "ENDITEM", 
+	web_submit_data("login.pl",
+		"Action=http://localhost:1080/cgi-bin/login.pl",
+		"Method=POST",
+		"TargetFrame=body",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home",
+		"Snapshot=t4.inf",
+		"Mode=HTML",
+		"ITEMDATA",
+		"Name=userSession", "Value={userSession}", "ENDITEM",
+		"Name=username", "Value={login}", "ENDITEM",
+		"Name=password", "Value={password}", "ENDITEM",
+		"Name=login.x", "Value=48", "ENDITEM",
+		"Name=login.y", "Value=3", "ENDITEM",
+		"Name=JSFormSubmit", "Value=off", "ENDITEM",
 		"LAST");
-
 	
+	lr_end_transaction("Login", 2);
+	
+
+
+	lr_start_transaction("search_Itinerary");
+
 	
 	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
 
@@ -2693,6 +2720,11 @@ Action()
 		"Snapshot=t5.inf", 
 		"Mode=HTML", 
 		"LAST");
+		
+	lr_end_transaction("search_Itinerary", 2);
+	
+	lr_start_transaction("delete_Itinerary");
+
 	
 		web_submit_data("itinerary.pl",
 		"Action=http://localhost:1080/cgi-bin/itinerary.pl",
@@ -2716,15 +2748,21 @@ Action()
 		"Name=.cgifields", "Value=4", "ENDITEM",
 		"Name=.cgifields", "Value=5", "ENDITEM",
 		"LAST");
+	
+	lr_end_transaction("delete_Itinerary", 2);
+
+
+	lr_end_transaction("UC5_Delete_From_Itinerary", 2);
+
 
 	return 0;
 }
-# 5 "c:\\users\\andrey.home-pc\\documents\\vugen\\scripts\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
+# 5 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\andrey.home-pc\\documents\\vugen\\scripts\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
+# 6 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
 
