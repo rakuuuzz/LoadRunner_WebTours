@@ -14,6 +14,9 @@
     <FileEntry Name="UC3_Book_Flights.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="RegUser.dat" Filter="2" />
+    <FileEntry Name="combined_UC3_Book_Flights.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="215201107440.idx" Filter="1" />
     <FileEntry Name="bookFlight.prm.bak" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
@@ -33,6 +36,8 @@
     <FileEntry Name="password.dat" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="UC3_Book_Flights.c.pickle" Filter="1" />
+    <FileEntry Name="UC3_Book_Flights.ci" Filter="1" />
     <FileEntry Name="UC3_Book_Flights.prm.bak" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />

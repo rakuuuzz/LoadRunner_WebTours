@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\Andrey.Home-PC\Documents\VuGen\Scripts\bookFlight
+-IC:\Users\Andrey.Home-PC\Documents\VuGen\Scripts\UC3_Book_Flights
 -ID:\Program Files\LoadRunner\include
--ec:\users\andrey.home-pc\documents\vugen\scripts\bookflight\\logfile.log
-c:\users\andrey.home-pc\documents\vugen\scripts\bookflight\\combined_bookFlight.c
-c:\users\andrey.home-pc\documents\vugen\scripts\bookflight\\pre_cci.c
+-ec:\users\andrey.home-pc\documents\vugen\scripts\uc3_book_flights\\logfile.log
+c:\users\andrey.home-pc\documents\vugen\scripts\uc3_book_flights\\combined_UC3_Book_Flights.c
+c:\users\andrey.home-pc\documents\vugen\scripts\uc3_book_flights\\pre_cci.c

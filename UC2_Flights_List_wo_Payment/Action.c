@@ -1,6 +1,9 @@
 Action()
 {
 		
+	int rnd;
+	char outbound_flight[20];
+	
 	lr_start_transaction("UC4_Flights_List_w/o_Payment");
 
 	lr_start_transaction("go_to_WebTours");
@@ -143,7 +146,7 @@ Action()
 				   LAST);
 	
 	
-	web_reg_find("Text=Flight departing from <B>{CityDep}</B> to <B>{CityArr}</B> on <B>{departDate}</B>", LAST);
+	web_reg_find("Fail=NotFound", "Text=Flight departing from <B>{CityDep}</B> to <B>{CityArr}</B> on <B>{departDate}</B>", LAST);
 	
 	web_submit_data("reservations.pl",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl",

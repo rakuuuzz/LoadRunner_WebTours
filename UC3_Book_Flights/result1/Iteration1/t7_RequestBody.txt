@@ -1,4 +1,2 @@
-"firstName=Mickey&lastName=Mouse&address1=123MainSt.&address2=Orlando&pass1=+Mickey+Mouse&credi"
-"tCard=12345678&expDate=12%2F25&oldCCOption=&numPassengers=1&seatType=Economy&seatPref=Window&o"
-"utboundFlight=382%3B1187%3B02%2F04%2F2024&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buy"
-"Flights.x=30&buyFlights.y=11&.cgifields=saveCC"
+"outboundFlight=722%3B1002%3B02%2F05%2F2024&numPassengers=1&advanceDiscount=0&seatType=Economy&"
+"seatPref=Window&reserveFlights.x=50&reserveFlights.y=10"

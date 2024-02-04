@@ -1,5 +1,9 @@
 Action()
 {
+	int random;
+	char flightTime[20];
+	char flightId[10];
+	char outbound_flight[50];
 	
 	lr_start_transaction("UC3_Book_Flights");
 
@@ -124,6 +128,7 @@ Action()
 	{
     	lr_save_string(lr_paramarr_random("City"), "CityDep");
 	}
+
 	
 	lr_end_transaction("go_to_FlightsPage", LR_AUTO);
 
@@ -137,12 +142,38 @@ Action()
 	
 	web_reg_find("Text=Find Flight",LAST);
 	
+	/*
 	web_reg_save_param("outboundFlight",
 				   "LB=name=\"outboundFlight\" value=\"",
 				   "RB=\">",
 				   "Ordinal=3",
 				   LAST);
+	*/
 	
+	web_reg_save_param_attrib(
+				   "ParamName=outboundFlight",
+				   "TagName=input",
+				   "Extract=value",
+				   "Name=outboundFlight",
+				   "Ordinal=ALL",
+				   "Type=radio",
+				   SEARCH_FILTERS,
+				   "IgnoreRedirections=No",
+				   LAST);
+	
+	web_reg_save_param("flightId",         
+				   "LB=name=\"outboundFlight\" value=\"",
+				   "RB=;",
+				   "Ord=ALL",
+				   LAST);
+	
+	web_reg_save_param("flightTime",
+		 		   "LB=<td align=\"center\">",
+				   "RB=<td align=\"center\">$",
+				   "Ord=ALL",
+				   LAST);
+	
+	//<td align="center">  <td align="center">$
 	
 	web_reg_find("Text=Flight departing from <B>{CityDep}</B> to <B>{CityArr}</B> on <B>{departDate}</B>", LAST);
 	
@@ -172,6 +203,17 @@ Action()
 
 	lr_end_transaction("ticket_Search", LR_AUTO);
 	
+	
+	random = rand()%(atoi(lr_eval_string("{flightId_count}")) - 1) + 1;
+			
+	sprintf(flightTime, "{flightTime_%d}", random);
+	lr_save_string(lr_eval_string(flightTime), "flightTime_Id");
+		
+	sprintf(flightId, "{flightId_%d}", random);
+	lr_save_string(lr_eval_string(flightId), "flightNum_Id");
+	
+	sprintf(outbound_flight, "{outboundFlight_%d}", random);
+	lr_save_string(lr_eval_string(outbound_flight), "outboundFlight");
 	
 
 	lr_start_transaction("choose_Ticket");
@@ -216,7 +258,7 @@ Action()
 	lr_think_time(4);
 
 	web_reg_find("Text=Invoice",LAST);
-	web_reg_find("Text={CityDep} to {CityArr}.", LAST);
+	web_reg_find("Text={flightTime_Id} : Flight {flightNum_Id} leaves {CityDep}  for {CityArr}", LAST);
 	
 	web_submit_data("reservations.pl_3",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl",

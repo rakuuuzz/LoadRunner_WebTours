@@ -1,2 +1,3 @@
-"outboundFlight=382%3B1187%3B02%2F04%2F2024&numPassengers=1&advanceDiscount=0&seatType=Economy&"
-"seatPref=Window&reserveFlights.x=50&reserveFlights.y=10"
+"advanceDiscount=0&depart=Seattle&departDate=02%2F05%2F2024&arrive=London&returnDate=%7BreturnD"
+"ate%7D&numPassengers=1&seatPref=Window&seatType=Economy&findFlights.x=56&findFlights.y=7&.cgif"
+"ields=roundtrip&.cgifields=seatType&.cgifields=seatPref"
