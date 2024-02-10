@@ -1,0 +1,68 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: WebTours",
+                "infFile": "t2.inf",
+                "time": 1707588576427
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1707588576546
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t4.inf",
+                "time": 1707588576943
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t5.inf",
+                "time": 1707588577021
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "go_to_WebTours",
+                "rawStartTime": 1707588576279,
+                "rawEndTime": 1707588576429,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05061149597167969
+            },
+            {
+                "transactionName": "Login",
+                "rawStartTime": 1707588576431,
+                "rawEndTime": 1707588576548,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0042040348052978519
+            },
+            {
+                "transactionName": "search_Itinerary",
+                "rawStartTime": 1707588576550,
+                "rawEndTime": 1707588576945,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010647296905517578
+            },
+            {
+                "transactionName": "Logout",
+                "rawStartTime": 1707588576947,
+                "rawEndTime": 1707588577023,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0031867027282714845
+            },
+            {
+                "transactionName": "UC1_Login&Logout",
+                "rawStartTime": 1707588576277,
+                "rawEndTime": 1707588577025,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0686495304107666
+            }
+        ]
+    }
+]

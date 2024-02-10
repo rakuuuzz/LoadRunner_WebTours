@@ -4,7 +4,7 @@ Action()
 	int rnd;
 	char outbound_flight[20];
 	
-	lr_start_transaction("UC4_Flights_List_w/o_Payment");
+	lr_start_transaction("UC2_Flights_List_w/o_Payment");
 
 	lr_start_transaction("go_to_WebTours");
 
@@ -200,7 +200,7 @@ Action()
 	
 	lr_end_transaction("choose_Ticket", LR_AUTO);
 	
-	lr_end_transaction("UC4_Flights_List_w/o_Payment", LR_AUTO);
+	lr_end_transaction("UC2_Flights_List_w/o_Payment", LR_AUTO);
 	
 	return 0;
 }

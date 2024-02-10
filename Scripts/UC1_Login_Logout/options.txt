@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\Andrey.Home-PC\Documents\VuGen\Scripts\UC1_Login&Logout
--ID:\Program Files\LoadRunner\include
--ec:\users\andrey.home-pc\documents\vugen\scripts\uc1_login&logout\\logfile.log
-c:\users\andrey.home-pc\documents\vugen\scripts\uc1_login&logout\\combined_UC1_Login&Logout.c
-c:\users\andrey.home-pc\documents\vugen\scripts\uc1_login&logout\\pre_cci.c
