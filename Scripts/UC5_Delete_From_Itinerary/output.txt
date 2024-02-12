@@ -1,9 +1,9 @@
-Virtual User Script started at: 04.02.2024 17:24:11
+Virtual User Script started at: 11.02.2024 11:43:11
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:94.0) Gecko/20100101 Firefox/94.0  	[MsgId: MMSG-26988]
-Runtime Settings file: "C:\Users\Andrey.Home-PC\LoadRunner_WebTours\UC5_Delete_From_Itinerary\\default.cfg"  	[MsgId: MMSG-27141]
+Runtime Settings file: "C:\Users\Andrey.Home-PC\LoadRunner_WebTours\Scripts\UC5_Delete_From_Itinerary\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -32,7 +32,7 @@ Action.c(35): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(35): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(35): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(35): web_url("WebTours") was successful, 10080 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(45): Notify: Transaction "go_to_WebTours" ended with a "Pass" status (Duration: 0,1295 Wasted Time: 0,0527).
+Action.c(45): Notify: Transaction "go_to_WebTours" ended with a "Pass" status (Duration: 0.1279 Wasted Time: 0.0495).
 Action.c(49): Notify: Transaction "Login" started.
 Action.c(51): web_set_sockets_option started  	[MsgId: MMSG-26355]
 Action.c(51): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
@@ -55,7 +55,7 @@ Action.c(69): Found resource "http://localhost:1080/WebTours/images/itinerary.gi
 Action.c(69): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 Action.c(69): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 Action.c(69): web_submit_data("login.pl") was successful, 5781 body bytes, 2052 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(86): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1175 Wasted Time: 0,0040).
+Action.c(86): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1109 Wasted Time: 0,0038).
 Action.c(90): Notify: Transaction "search_Itinerary" started.
 Action.c(93): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
 Action.c(93): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
@@ -66,6 +66,8 @@ Action.c(98): web_add_header("Origin") started  	[MsgId: MMSG-26355]
 Action.c(98): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
 Action.c(101): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
 Action.c(101): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(104): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(104): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
 Action.c(111): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
 Action.c(111): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
 Action.c(111): Detected non-resource "http://localhost:1080/cgi-bin/itinerary.pl" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
@@ -75,13 +77,16 @@ Action.c(111): Found resource "http://localhost:1080/WebTours/images/home.gif" i
 Action.c(111): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(111): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
 Action.c(111): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
-Action.c(111): web_url("Itinerary Button") was successful, 49516 body bytes, 1913 header bytes, 115 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(121): Notify: Transaction "search_Itinerary" ended with a "Pass" status (Duration: 0,1296 Wasted Time: 0,0043).
+Action.c(111): web_url("Itinerary Button") was successful, 8860 body bytes, 1913 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(121): Notify: Transaction "search_Itinerary" ended with a "Pass" status (Duration: 0,1289 Wasted Time: 0,0063).
 Action.c(123): Notify: Transaction "delete_Itinerary" started.
-Action.c(126): web_submit_data("itinerary.pl") started  	[MsgId: MMSG-26355]
-Action.c(126): web_submit_data("itinerary.pl") was successful, 932 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(149): Notify: Transaction "delete_Itinerary" ended with a "Pass" status (Duration: 0,0417 Wasted Time: 0,0025).
-Action.c(152): Notify: Transaction "UC5_Delete_From_Itinerary" ended with a "Pass" status (Duration: 0,4302 Wasted Time: 0,0636).
+Action.c(126): web_submit_form("itinerary.pl") started  	[MsgId: MMSG-26355]
+Action.c(126): Submitting form to "http://localhost:1080/cgi-bin/itinerary.pl", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(126): Resource "http://localhost:1080/WebTours/images/cancelreservation.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(126): Resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(126): web_submit_form("itinerary.pl") was successful, 2646 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(134): Notify: Transaction "delete_Itinerary" ended with a "Pass" status (Duration: 0,0479 Wasted Time: 0,0025).
+Action.c(137): Notify: Transaction "UC5_Delete_From_Itinerary" ended with a "Pass" status (Duration: 0,4262 Wasted Time: 0,0623).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

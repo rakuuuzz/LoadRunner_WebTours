@@ -101,12 +101,12 @@ Action()
 	web_add_header("Sec-Fetch-User", 
 		"?1");
 
-//	web_reg_save_param_regexp(
-//        "ParamName=flightID",
-//        "RegExp=name",
-//        "Group=1",
-//        "Ordinal=All",
-//    	LAST);
+	web_reg_save_param_regexp(
+        "ParamName=flightID",
+        "RegExp=name\=\"flightID\" value\=\(.*?)\/>",
+        "Group=1",
+        "Ordinal=All",
+   	LAST);
 
 	web_url("Itinerary Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
@@ -123,27 +123,12 @@ Action()
 	lr_start_transaction("delete_Itinerary");
 
 	
-		web_submit_data("itinerary.pl",
-		"Action=http://localhost:1080/cgi-bin/itinerary.pl",
-		"Method=POST",
-		"TargetFrame=",
-		"RecContentType=text/html",
-		"Referer=http://localhost:1080/cgi-bin/itinerary.pl",
+		web_submit_form("itinerary.pl",
 		"Snapshot=t4.inf",
-		"Mode=HTML",
 		ITEMDATA,
-		"Name=flightID", "Value={flightID}", ENDITEM,
-		"Name={DeleteID}", "Value=on", ENDITEM,
+		"Name=1", "Value=on", ENDITEM,
 		"Name=removeFlights.x", "Value=55", ENDITEM,
 		"Name=removeFlights.y", "Value=12", ENDITEM,
-		"Name=.cgifields", "Value=6", ENDITEM,
-		"Name=.cgifields", "Value=3", ENDITEM,
-		"Name=.cgifields", "Value=7", ENDITEM,
-		"Name=.cgifields", "Value=2", ENDITEM,
-		"Name=.cgifields", "Value=8", ENDITEM,
-		"Name=.cgifields", "Value=1", ENDITEM,
-		"Name=.cgifields", "Value=4", ENDITEM,
-		"Name=.cgifields", "Value=5", ENDITEM,
 		LAST);
 	
 	lr_end_transaction("delete_Itinerary", LR_AUTO);

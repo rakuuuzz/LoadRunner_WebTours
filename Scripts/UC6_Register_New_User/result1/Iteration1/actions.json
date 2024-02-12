@@ -6,62 +6,62 @@
                 "stepId": "STEP1",
                 "stepName": "Url: WebTours",
                 "infFile": "t1.inf",
-                "time": 1706963321760
+                "time": 1707754287898
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Url: sign up now",
                 "infFile": "t2.inf",
-                "time": 1706963321839
+                "time": 1707754287975
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Submit Data: login.pl",
                 "infFile": "t3.inf",
-                "time": 1706963321896
+                "time": 1707754288035
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Url: button_next.gif",
                 "infFile": "t4.inf",
-                "time": 1706963322018
+                "time": 1707754288150
             }
         ],
         "transactions": [
             {
                 "transactionName": "go_to_WebTours",
-                "rawStartTime": 1706963321625,
-                "rawEndTime": 1706963321762,
+                "rawStartTime": 1707754287752,
+                "rawEndTime": 1707754287900,
                 "thinkTime": 0.0,
-                "wastedTime": 0.04906201362609863
+                "wastedTime": 0.04929327964782715
             },
             {
                 "transactionName": "RegisterNewUser",
-                "rawStartTime": 1706963321764,
-                "rawEndTime": 1706963321841,
+                "rawStartTime": 1707754287902,
+                "rawEndTime": 1707754287977,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0032880306243896486
+                "wastedTime": 0.0029344558715820314
             },
             {
                 "transactionName": "RegPage",
-                "rawStartTime": 1706963321843,
-                "rawEndTime": 1706963321905,
+                "rawStartTime": 1707754287979,
+                "rawEndTime": 1707754288037,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0019888877868652345
+                "wastedTime": 0.0021657943725585939
             },
             {
                 "transactionName": "ContinueAfterReg",
-                "rawStartTime": 1706963321907,
-                "rawEndTime": 1706963322019,
+                "rawStartTime": 1707754288039,
+                "rawEndTime": 1707754288152,
                 "thinkTime": 0.0,
-                "wastedTime": 0.003915071487426758
+                "wastedTime": 0.003578662872314453
             },
             {
-                "transactionName": "UC5_Register_New_Users",
-                "rawStartTime": 1706963321623,
-                "rawEndTime": 1706963322019,
+                "transactionName": "UC6_Register_New_Users",
+                "rawStartTime": 1707754287750,
+                "rawEndTime": 1707754288154,
                 "thinkTime": 0.0,
-                "wastedTime": 0.05825400352478027
+                "wastedTime": 0.05797219276428223
             }
         ]
     }

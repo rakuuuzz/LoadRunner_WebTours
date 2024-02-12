@@ -1,4 +1,4 @@
-# 1 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc2_flights_list_wo_payment\\\\combined_UC2_Flights_List_wo_Payment.c"
+# 1 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc2_flights_list_wo_payment\\\\combined_UC2_Flights_List_wo_Payment.c"
 # 1 "D:\\Program Files\\LoadRunner\\include/lrun.h" 1
  
  
@@ -966,7 +966,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc2_flights_list_wo_payment\\\\combined_UC2_Flights_List_wo_Payment.c" 2
+# 1 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc2_flights_list_wo_payment\\\\combined_UC2_Flights_List_wo_Payment.c" 2
 
 # 1 "D:\\Program Files\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1132,7 +1132,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc2_flights_list_wo_payment\\\\combined_UC2_Flights_List_wo_Payment.c" 2
+# 2 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc2_flights_list_wo_payment\\\\combined_UC2_Flights_List_wo_Payment.c" 2
 
 # 1 "globals.h" 1
 
@@ -2589,14 +2589,14 @@ void
  
 
 
-# 3 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc2_flights_list_wo_payment\\\\combined_UC2_Flights_List_wo_Payment.c" 2
+# 3 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc2_flights_list_wo_payment\\\\combined_UC2_Flights_List_wo_Payment.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc2_flights_list_wo_payment\\\\combined_UC2_Flights_List_wo_Payment.c" 2
+# 4 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc2_flights_list_wo_payment\\\\combined_UC2_Flights_List_wo_Payment.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2605,7 +2605,7 @@ Action()
 	int rnd;
 	char outbound_flight[20];
 	
-	lr_start_transaction("UC4_Flights_List_w/o_Payment");
+	lr_start_transaction("UC2_Flights_List_w/o_Payment");
 
 	lr_start_transaction("go_to_WebTours");
 
@@ -2801,16 +2801,16 @@ Action()
 	
 	lr_end_transaction("choose_Ticket", 2);
 	
-	lr_end_transaction("UC4_Flights_List_w/o_Payment", 2);
+	lr_end_transaction("UC2_Flights_List_w/o_Payment", 2);
 	
 	return 0;
 }
-# 5 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc2_flights_list_wo_payment\\\\combined_UC2_Flights_List_wo_Payment.c" 2
+# 5 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc2_flights_list_wo_payment\\\\combined_UC2_Flights_List_wo_Payment.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc2_flights_list_wo_payment\\\\combined_UC2_Flights_List_wo_Payment.c" 2
+# 6 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc2_flights_list_wo_payment\\\\combined_UC2_Flights_List_wo_Payment.c" 2
 

@@ -14,6 +14,9 @@
     <FileEntry Name="UC6_Register_New_User.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="RegUser.dat" Filter="2" />
+    <FileEntry Name="combined_UC6_Register_New_User.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="150874846440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="city.dat" Filter="1" />
@@ -25,6 +28,24 @@
     <FileEntry Name="login.dat" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv6g7.841.log" Filter="1" />
+    <FileEntry Name="mdrvaVs.589.log" Filter="1" />
+    <FileEntry Name="mdrvcBB.359.log" Filter="1" />
+    <FileEntry Name="mdrvDL7.501.log" Filter="1" />
+    <FileEntry Name="mdrvh7x.905.log" Filter="1" />
+    <FileEntry Name="mdrvHNd.521.log" Filter="1" />
+    <FileEntry Name="mdrvIGA.849.log" Filter="1" />
+    <FileEntry Name="mdrvLcE.259.log" Filter="1" />
+    <FileEntry Name="mdrvmp7.123.log" Filter="1" />
+    <FileEntry Name="mdrvmsJ.263.log" Filter="1" />
+    <FileEntry Name="mdrvOnQ.855.log" Filter="1" />
+    <FileEntry Name="mdrvpZ2.531.log" Filter="1" />
+    <FileEntry Name="mdrvpZK.247.log" Filter="1" />
+    <FileEntry Name="mdrvqiP.809.log" Filter="1" />
+    <FileEntry Name="mdrvTCd.101.log" Filter="1" />
+    <FileEntry Name="mdrvvQG.775.log" Filter="1" />
+    <FileEntry Name="mdrvXvd.695.log" Filter="1" />
+    <FileEntry Name="mdrvyK7.769.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
@@ -35,6 +56,9 @@
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="street.dat" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="UC6_Register_New_User.c.pickle" Filter="1" />
+    <FileEntry Name="UC6_Register_New_User.ci" Filter="1" />
     <FileEntry Name="UC6_Register_New_User.prm.bak" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="data\" Filter="1" />

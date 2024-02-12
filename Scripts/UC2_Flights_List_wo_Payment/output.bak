@@ -1,9 +1,9 @@
-Virtual User Script started at: 04.02.2024 16:59:10
+Virtual User Script started at: 04.02.2024 17:24:46
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
-Runtime Settings file: "C:\Users\Andrey.Home-PC\Documents\VuGen\Scripts\UC2_Flights_List_wo_Payment\\default.cfg"  	[MsgId: MMSG-27141]
+Runtime Settings file: "C:\Users\Andrey.Home-PC\LoadRunner_WebTours\UC2_Flights_List_wo_Payment\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -35,7 +35,7 @@ Action.c(41): Detected non-resource "http://localhost:1080/WebTours/home.html" i
 Action.c(41): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(41): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
 Action.c(41): web_url("WebTours") was successful, 10079 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(51): Notify: Transaction "go_to_WebTours" ended with a "Pass" status (Duration: 0,1294 Wasted Time: 0,0501).
+Action.c(51): Notify: Transaction "go_to_WebTours" ended with a "Pass" status (Duration: 0,1351 Wasted Time: 0,0508).
 Action.c(54): Notify: Transaction "Login" started.
 Action.c(56): web_set_sockets_option started  	[MsgId: MMSG-26355]
 Action.c(56): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
@@ -61,7 +61,7 @@ Action.c(76): Found resource "http://localhost:1080/WebTours/images/in_home.gif"
 Action.c(76): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 Action.c(76): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
 Action.c(76): web_submit_data("login.pl") was successful, 5781 body bytes, 2052 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(94): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1190 Wasted Time: 0,0041).
+Action.c(94): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1155 Wasted Time: 0,0039).
 Action.c(98): Notify: Transaction "go_to_FlightsPage" started.
 Action.c(100): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
 Action.c(100): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
@@ -79,7 +79,7 @@ Action.c(113): Found resource "http://localhost:1080/WebTours/images/home.gif" i
 Action.c(113): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(113): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
 Action.c(113): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(130): Notify: Transaction "go_to_FlightsPage" ended with a "Pass" status (Duration: 0,1230 Wasted Time: 0,0040).
+Action.c(130): Notify: Transaction "go_to_FlightsPage" ended with a "Pass" status (Duration: 0,1275 Wasted Time: 0,0039).
 Action.c(132): Notify: Transaction "ticket_Search" started.
 Action.c(134): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
 Action.c(134): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
@@ -94,9 +94,9 @@ Action.c(149): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 Action.c(151): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
 Action.c(151): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(151): Registered web_reg_find successful for "Text=Find Flight" (count=1)  	[MsgId: MMSG-26364]
-Action.c(151): Registered web_reg_find successful for "Text=Flight departing from <B>Paris</B> to <B>Portland</B> on <B>02/05/2024</B>" (count=1)  	[MsgId: MMSG-26364]
-Action.c(151): web_submit_data("reservations.pl") was successful, 2448 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(175): Notify: Transaction "ticket_Search" ended with a "Pass" status (Duration: 0,0612 Wasted Time: 0,0028).
+Action.c(151): Registered web_reg_find successful for "Text=Flight departing from <B>Seattle</B> to <B>London</B> on <B>02/05/2024</B>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(151): web_submit_data("reservations.pl") was successful, 2446 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(175): Notify: Transaction "ticket_Search" ended with a "Pass" status (Duration: 0,0618 Wasted Time: 0,0041).
 Action.c(179): Notify: Transaction "choose_Ticket" started.
 Action.c(181): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(181): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -104,8 +104,8 @@ Action.c(183): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355
 Action.c(183): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(183): Registered web_reg_find successful for "Text=Payment Details" (count=1)  	[MsgId: MMSG-26364]
 Action.c(183): web_submit_data("reservations.pl_2") was successful, 2742 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(201): Notify: Transaction "choose_Ticket" ended with a "Pass" status (Duration: 0,0791 Wasted Time: 0,0027).
-Action.c(203): Notify: Transaction "UC4_Flights_List_w/o_Payment" ended with a "Pass" status (Duration: 0,5239 Wasted Time: 0,0637).
+Action.c(201): Notify: Transaction "choose_Ticket" ended with a "Pass" status (Duration: 0,0716 Wasted Time: 0,0027).
+Action.c(203): Notify: Transaction "UC4_Flights_List_w/o_Payment" ended with a "Pass" status (Duration: 0,5238 Wasted Time: 0,0654).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

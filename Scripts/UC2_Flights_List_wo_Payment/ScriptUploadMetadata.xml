@@ -15,6 +15,7 @@
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="combined_UC2_Flights_List_wo_Payment.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="151277624440.idx" Filter="1" />
     <FileEntry Name="265515740440.idx" Filter="1" />
     <FileEntry Name="arrive.dat" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
@@ -46,6 +47,7 @@
     <FileEntry Name="seatPref.dat" Filter="1" />
     <FileEntry Name="seatType.dat" Filter="1" />
     <FileEntry Name="street.dat" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UC2_Flights_List_wo_Payment.c.pickle" Filter="1" />
     <FileEntry Name="UC2_Flights_List_wo_Payment.ci" Filter="1" />
     <FileEntry Name="UC2_Flights_List_wo_Payment.prm.bak" Filter="1" />

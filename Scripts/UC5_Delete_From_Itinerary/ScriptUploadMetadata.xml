@@ -18,6 +18,7 @@
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="130417587440.idx" Filter="1" />
     <FileEntry Name="265515740440.idx" Filter="1" />
+    <FileEntry Name="63722162440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -35,6 +36,7 @@
     <FileEntry Name="password.dat" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UC5_Delete_From_Itinerary.c.pickle" Filter="1" />
     <FileEntry Name="UC5_Delete_From_Itinerary.ci" Filter="1" />
     <FileEntry Name="UC5_Delete_From_Itinerary.prm.bak" Filter="1" />

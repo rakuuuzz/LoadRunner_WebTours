@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\Andrey.Home-PC\LoadRunner_WebTours\UC5_Delete_From_Itinerary
+-IC:\Users\Andrey.Home-PC\LoadRunner_WebTours\Scripts\UC5_Delete_From_Itinerary
 -ID:\Program Files\LoadRunner\include
--ec:\users\andrey.home-pc\loadrunner_webtours\uc5_delete_from_itinerary\\logfile.log
-c:\users\andrey.home-pc\loadrunner_webtours\uc5_delete_from_itinerary\\combined_UC5_Delete_From_Itinerary.c
-c:\users\andrey.home-pc\loadrunner_webtours\uc5_delete_from_itinerary\\pre_cci.c
+-ec:\users\andrey.home-pc\loadrunner_webtours\scripts\uc5_delete_from_itinerary\\logfile.log
+c:\users\andrey.home-pc\loadrunner_webtours\scripts\uc5_delete_from_itinerary\\combined_UC5_Delete_From_Itinerary.c
+c:\users\andrey.home-pc\loadrunner_webtours\scripts\uc5_delete_from_itinerary\\pre_cci.c

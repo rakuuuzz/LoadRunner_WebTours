@@ -18,6 +18,7 @@
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="215201107440.idx" Filter="1" />
     <FileEntry Name="21627605440.idx" Filter="1" />
+    <FileEntry Name="238814714440.idx" Filter="1" />
     <FileEntry Name="bookFlight.prm.bak" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
@@ -37,6 +38,7 @@
     <FileEntry Name="password.dat" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UC3_Book_Flights.c.pickle" Filter="1" />
     <FileEntry Name="UC3_Book_Flights.ci" Filter="1" />
     <FileEntry Name="UC3_Book_Flights.prm.bak" Filter="1" />

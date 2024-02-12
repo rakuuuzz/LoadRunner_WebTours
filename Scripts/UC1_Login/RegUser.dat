@@ -1,11 +1,2 @@
-login,password,firstName,lastName,street,city,seatPref,seatType,creditCard,expDate
-mickey,mickey123,Mickey,Mouse,123MainSt.,Orlando,Window,Economy,12345678,12/25
-minnie,minnie123,Minnie,Mouse,456FirstSt.,Orlando,Aisle,Business,98765432,11/24
-donald,donald123,Donald,Duck,789CenterSt.,Duckburg,Middle,Economy,24681357,09/25
-daisy,daisy123,Daisy,Duck,321ElmSt.,Duckburg,Window,Economy,86429753,08/24
-goofy,goofy123,Goofy,Goof,654OakSt.,Goofville,Aisle,Business,33331111,06/25
-pluto,pluto123,Pluto,Dog,100DoghouseLn.,Dogville,Window,Economy,99998888,10/24
-cinderella,cindy123,Cinderella,NA,900CastleRd.,MagicLand,Aisle,Business,77772222,07/24
-ariel,ariel123,Ariel,Mermaid,101OceanDr.,Atlantica,Window,Economy,55554444,05/25
-belle,belle123,Belle,Beauty,456MainSt.,Fairytale,Aisle,Business,66663333,04/24
-simba,simba123,Simba,Lion,321PrideRock,AfricanPlains,Window,Economy,12345678,03/25
+login
+

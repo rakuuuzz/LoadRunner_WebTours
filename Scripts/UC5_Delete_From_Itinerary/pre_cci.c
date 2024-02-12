@@ -1,4 +1,4 @@
-# 1 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c"
+# 1 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c"
 # 1 "D:\\Program Files\\LoadRunner\\include/lrun.h" 1
  
  
@@ -966,7 +966,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
+# 1 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
 
 # 1 "D:\\Program Files\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1132,7 +1132,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
+# 2 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
 
 # 1 "globals.h" 1
 
@@ -2591,14 +2591,14 @@ void
 
 
 
-# 3 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
+# 3 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
+# 4 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2704,12 +2704,12 @@ Action()
 	web_add_header("Sec-Fetch-User", 
 		"?1");
 
- 
- 
- 
- 
- 
- 
+	web_reg_save_param_regexp(
+        "ParamName=flightID",
+        "RegExp=name\=\"flightID\" value\=\(.*?)\/>",
+        "Group=1",
+        "Ordinal=All",
+   	"LAST");
 
 	web_url("Itinerary Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
@@ -2726,27 +2726,12 @@ Action()
 	lr_start_transaction("delete_Itinerary");
 
 	
-		web_submit_data("itinerary.pl",
-		"Action=http://localhost:1080/cgi-bin/itinerary.pl",
-		"Method=POST",
-		"TargetFrame=",
-		"RecContentType=text/html",
-		"Referer=http://localhost:1080/cgi-bin/itinerary.pl",
+		web_submit_form("itinerary.pl",
 		"Snapshot=t4.inf",
-		"Mode=HTML",
 		"ITEMDATA",
-		"Name=flightID", "Value={flightID}", "ENDITEM",
-		"Name={DeleteID}", "Value=on", "ENDITEM",
+		"Name=1", "Value=on", "ENDITEM",
 		"Name=removeFlights.x", "Value=55", "ENDITEM",
 		"Name=removeFlights.y", "Value=12", "ENDITEM",
-		"Name=.cgifields", "Value=6", "ENDITEM",
-		"Name=.cgifields", "Value=3", "ENDITEM",
-		"Name=.cgifields", "Value=7", "ENDITEM",
-		"Name=.cgifields", "Value=2", "ENDITEM",
-		"Name=.cgifields", "Value=8", "ENDITEM",
-		"Name=.cgifields", "Value=1", "ENDITEM",
-		"Name=.cgifields", "Value=4", "ENDITEM",
-		"Name=.cgifields", "Value=5", "ENDITEM",
 		"LAST");
 	
 	lr_end_transaction("delete_Itinerary", 2);
@@ -2757,12 +2742,12 @@ Action()
 
 	return 0;
 }
-# 5 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
+# 5 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
+# 6 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc5_delete_from_itinerary\\\\combined_UC5_Delete_From_Itinerary.c" 2
 
