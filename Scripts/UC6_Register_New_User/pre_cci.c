@@ -2600,29 +2600,7 @@ vuser_init()
 
 # 1 "Action.c" 1
 Action()
-{
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-	
+{	
 	char name[10]={0};
 	char newlastName[10]={0};
 	char newfirstName[10]={0};
@@ -2633,7 +2611,7 @@ Action()
 		name[i] = rand()%26+'a';
 	}
 	
-		for(j = 0; j < 5; j++)
+	for(j = 0; j < 5; j++)
 	{
 		newlastName[j] = rand()%26+'a';
 		newfirstName[j] = rand()%26+'a';
@@ -2697,6 +2675,8 @@ Action()
 
 	lr_think_time(4);
 	
+	web_reg_find("Text=User Information","LAST");
+	
 	web_url("sign up now", 
 		"URL=http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true", 
 		"TargetFrame=body", 
@@ -2735,8 +2715,8 @@ Action()
 		"Name=username", "Value={name}", "ENDITEM", 
 		"Name=password", "Value={password}", "ENDITEM", 
 		"Name=passwordConfirm", "Value={password}", "ENDITEM", 
-		"Name=firstName", "Value={FirstName}", "ENDITEM", 
-		"Name=lastName", "Value={LastName}", "ENDITEM", 
+		"Name=firstName", "Value={newfirstName}", "ENDITEM", 
+		"Name=lastName", "Value={newlastName}", "ENDITEM", 
 		"Name=address1", "Value={street}", "ENDITEM", 
 		"Name=address2", "Value={city}", "ENDITEM", 
 		"Name=register.x", "Value=71", "ENDITEM", 
@@ -2755,6 +2735,8 @@ Action()
 
 	web_add_header("Sec-Fetch-User", 
 		"?1");
+	
+	web_reg_find("Text=User has returned to the home page","LAST");
 
 	web_url("button_next.gif", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 

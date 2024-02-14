@@ -13,9 +13,9 @@
     <FileEntry Name="default.usp" Filter="4" />
     <FileEntry Name="UC4_Itinerary_List.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
-    <FileEntry Name="RegUser.dat" Filter="2" />
     <FileEntry Name="combined_UC4_Itinerary_List.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="109390416440.idx" Filter="1" />
     <FileEntry Name="222810037440.idx" Filter="1" />
     <FileEntry Name="265515740440.idx" Filter="1" />
     <FileEntry Name="bookList.prm.bak" Filter="1" />
@@ -25,15 +25,35 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="login.dat" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv0GR.193.log" Filter="1" />
+    <FileEntry Name="mdrv5Yb.705.log" Filter="1" />
+    <FileEntry Name="mdrv5zE.655.log" Filter="1" />
+    <FileEntry Name="mdrv7dR.595.log" Filter="1" />
+    <FileEntry Name="mdrv7fX.691.log" Filter="1" />
+    <FileEntry Name="mdrv9xX.485.log" Filter="1" />
+    <FileEntry Name="mdrvDh2.553.log" Filter="1" />
+    <FileEntry Name="mdrvFjc.21.log" Filter="1" />
+    <FileEntry Name="mdrvHp9.525.log" Filter="1" />
+    <FileEntry Name="mdrvIXd.945.log" Filter="1" />
+    <FileEntry Name="mdrvlmZ.131.log" Filter="1" />
+    <FileEntry Name="mdrvNIq.343.log" Filter="1" />
+    <FileEntry Name="mdrvOpW.47.log" Filter="1" />
+    <FileEntry Name="mdrvQSw.367.log" Filter="1" />
+    <FileEntry Name="mdrvVst.899.log" Filter="1" />
+    <FileEntry Name="mdrvx33.997.log" Filter="1" />
+    <FileEntry Name="mdrvxbB.189.log" Filter="1" />
+    <FileEntry Name="mdrvyEP.945.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
     <FileEntry Name="password.dat" Filter="1" />
+    <FileEntry Name="RegUser.dat" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UC4_Itinerary_List.c.pickle" Filter="1" />
     <FileEntry Name="UC4_Itinerary_List.ci" Filter="1" />
     <FileEntry Name="UC4_Itinerary_List.prm.bak" Filter="1" />

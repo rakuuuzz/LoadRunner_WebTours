@@ -2703,13 +2703,14 @@ Action()
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 	
-		
+	
 	web_reg_save_param_ex("ParamName=City",
 						  "LB=\<option value\=\"",
 						  "RB=\">",
 					  	  "Ordinal=ALL",
 						  "LAST");
 	
+	web_reg_find("Text=User has returned to the search page","LAST");
 	
 	web_url("Search Flights Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 

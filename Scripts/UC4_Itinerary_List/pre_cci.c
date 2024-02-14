@@ -1,4 +1,4 @@
-# 1 "c:\\users\\andrey.home-pc\\documents\\vugen\\scripts\\uc4_itinerary_list\\\\combined_UC4_Itinerary_List.c"
+# 1 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc4_itinerary_list\\\\combined_UC4_Itinerary_List.c"
 # 1 "D:\\Program Files\\LoadRunner\\include/lrun.h" 1
  
  
@@ -966,7 +966,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\andrey.home-pc\\documents\\vugen\\scripts\\uc4_itinerary_list\\\\combined_UC4_Itinerary_List.c" 2
+# 1 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc4_itinerary_list\\\\combined_UC4_Itinerary_List.c" 2
 
 # 1 "D:\\Program Files\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1132,7 +1132,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\andrey.home-pc\\documents\\vugen\\scripts\\uc4_itinerary_list\\\\combined_UC4_Itinerary_List.c" 2
+# 2 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc4_itinerary_list\\\\combined_UC4_Itinerary_List.c" 2
 
 # 1 "globals.h" 1
 
@@ -2590,20 +2590,23 @@ void
  
 
 
-# 3 "c:\\users\\andrey.home-pc\\documents\\vugen\\scripts\\uc4_itinerary_list\\\\combined_UC4_Itinerary_List.c" 2
+# 3 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc4_itinerary_list\\\\combined_UC4_Itinerary_List.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\andrey.home-pc\\documents\\vugen\\scripts\\uc4_itinerary_list\\\\combined_UC4_Itinerary_List.c" 2
+# 4 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc4_itinerary_list\\\\combined_UC4_Itinerary_List.c" 2
 
 # 1 "Action.c" 1
 Action()
 {
 
-lr_start_transaction("go_to_WebTours");
+	lr_start_transaction("UC4_Itinerary_List");
+
+	
+	lr_start_transaction("go_to_WebTours");
 
 
 	web_add_auto_header("Sec-Fetch-Dest", 
@@ -2690,109 +2693,14 @@ lr_start_transaction("go_to_WebTours");
 
 	lr_end_transaction("Login", 2);
 	
-	lr_start_transaction("go_to_Itinerary");
+	lr_start_transaction("search_Itinerary");
 
 
 	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
 
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
-
- 
-	web_reg_save_param_attrib(
-		"ParamName=flightID",
-		"TagName=input",
-		"Extract=value",
-		"Name=flightID",
-		"Type=hidden",
-		"SEARCH_FILTERS",
-		"IgnoreRedirections=No",
-		"RequestUrl=*/itinerary.pl*",
-		"LAST");
-
- 
-	web_reg_save_param_attrib(
-		"ParamName=flightID_1",
-		"TagName=input",
-		"Extract=value",
-		"Name=flightID",
-		"Type=hidden",
-		"SEARCH_FILTERS",
-		"IgnoreRedirections=No",
-		"RequestUrl=*/itinerary.pl*",
-		"LAST");
-
- 
-	web_reg_save_param_attrib(
-		"ParamName=flightID_2",
-		"TagName=input",
-		"Extract=value",
-		"Name=flightID",
-		"Type=hidden",
-		"SEARCH_FILTERS",
-		"IgnoreRedirections=No",
-		"RequestUrl=*/itinerary.pl*",
-		"LAST");
-
- 
-	web_reg_save_param_attrib(
-		"ParamName=flightID_3",
-		"TagName=input",
-		"Extract=value",
-		"Name=flightID",
-		"Type=hidden",
-		"SEARCH_FILTERS",
-		"IgnoreRedirections=No",
-		"RequestUrl=*/itinerary.pl*",
-		"LAST");
-
- 
-	web_reg_save_param_attrib(
-		"ParamName=flightID_4",
-		"TagName=input",
-		"Extract=value",
-		"Name=flightID",
-		"Type=hidden",
-		"SEARCH_FILTERS",
-		"IgnoreRedirections=No",
-		"RequestUrl=*/itinerary.pl*",
-		"LAST");
-
- 
-	web_reg_save_param_attrib(
-		"ParamName=flightID_5",
-		"TagName=input",
-		"Extract=value",
-		"Name=flightID",
-		"Type=hidden",
-		"SEARCH_FILTERS",
-		"IgnoreRedirections=No",
-		"RequestUrl=*/itinerary.pl*",
-		"LAST");
-
- 
-	web_reg_save_param_attrib(
-		"ParamName=flightID_6",
-		"TagName=input",
-		"Extract=value",
-		"Name=flightID",
-		"Type=hidden",
-		"SEARCH_FILTERS",
-		"IgnoreRedirections=No",
-		"RequestUrl=*/itinerary.pl*",
-		"LAST");
-
- 
-	web_reg_save_param_attrib(
-		"ParamName=flightID_7",
-		"TagName=input",
-		"Extract=value",
-		"Name=flightID",
-		"Type=hidden",
-		"SEARCH_FILTERS",
-		"IgnoreRedirections=No",
-		"RequestUrl=*/itinerary.pl*",
-		"LAST");
+	
 
 	web_reg_find("Text=User wants the intineraries.  Since user has already logged on","LAST");
 	
@@ -2806,55 +2714,19 @@ lr_start_transaction("go_to_WebTours");
 		"Mode=HTML", 
 		"LAST");
 		
-	lr_end_transaction("go_to_Itinerary", 2);
+	lr_end_transaction("search_Itinerary", 2);
 	
-	
+	lr_end_transaction("UC4_Itinerary_List", 2);
 
-
-	web_add_header("Origin", 
-		"http://localhost:1080");
-
-	web_add_header("Sec-Fetch-User", 
-		"?1");
-
-	web_submit_data("itinerary.pl",
-		"Action=http://localhost:1080/cgi-bin/itinerary.pl",
-		"Method=POST",
-		"TargetFrame=",
-		"RecContentType=text/html",
-		"Referer=http://localhost:1080/cgi-bin/itinerary.pl",
-		"Snapshot=t4.inf",
-		"Mode=HTML",
-		"ITEMDATA",
-		"Name=flightID", "Value={flightID}", "ENDITEM",
-		"Name=flightID", "Value={flightID_1}", "ENDITEM",
-		"Name=flightID", "Value={flightID_2}", "ENDITEM",
-		"Name=flightID", "Value={flightID_3}", "ENDITEM",
-		"Name=flightID", "Value={flightID_4}", "ENDITEM",
-		"Name=flightID", "Value={flightID_5}", "ENDITEM",
-		"Name=7", "Value=on", "ENDITEM",
-		"Name=flightID", "Value={flightID_6}", "ENDITEM",
-		"Name=flightID", "Value={flightID_7}", "ENDITEM",
-		"Name=removeFlights.x", "Value=55", "ENDITEM",
-		"Name=removeFlights.y", "Value=12", "ENDITEM",
-		"Name=.cgifields", "Value=6", "ENDITEM",
-		"Name=.cgifields", "Value=3", "ENDITEM",
-		"Name=.cgifields", "Value=7", "ENDITEM",
-		"Name=.cgifields", "Value=2", "ENDITEM",
-		"Name=.cgifields", "Value=8", "ENDITEM",
-		"Name=.cgifields", "Value=1", "ENDITEM",
-		"Name=.cgifields", "Value=4", "ENDITEM",
-		"Name=.cgifields", "Value=5", "ENDITEM",
-		"LAST");
 
 	return 0;
 }
-# 5 "c:\\users\\andrey.home-pc\\documents\\vugen\\scripts\\uc4_itinerary_list\\\\combined_UC4_Itinerary_List.c" 2
+# 5 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc4_itinerary_list\\\\combined_UC4_Itinerary_List.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\andrey.home-pc\\documents\\vugen\\scripts\\uc4_itinerary_list\\\\combined_UC4_Itinerary_List.c" 2
+# 6 "c:\\users\\andrey.home-pc\\loadrunner_webtours\\scripts\\uc4_itinerary_list\\\\combined_UC4_Itinerary_List.c" 2
 

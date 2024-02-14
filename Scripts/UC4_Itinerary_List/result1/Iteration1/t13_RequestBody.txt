@@ -1,4 +1,0 @@
-"flightID=210302324-828-MM&flightID=210302324-828-MM&flightID=210302324-828-MM&flightID=2103023"
-"24-828-MM&flightID=210302324-828-MM&flightID=210302324-828-MM&7=on&flightID=210302324-828-MM&f"
-"lightID=210302324-828-MM&removeFlights.x=55&removeFlights.y=12&.cgifields=6&.cgifields=3&.cgif"
-"ields=7&.cgifields=2&.cgifields=8&.cgifields=1&.cgifields=4&.cgifields=5"

@@ -32,6 +32,8 @@ Action()
 		"RequestUrl=*/nav.pl*",
 		LAST);
 
+	web_reg_find("Text=Welcome to the Web Tours site.",LAST);	
+	
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours/", 
 		"TargetFrame=", 
@@ -65,6 +67,8 @@ Action()
 		"?1");
 
 	lr_think_time(5);
+	
+	web_reg_find("Text=User password was correct",LAST);
 
 	web_submit_data("login.pl",
 		"Action=http://localhost:1080/cgi-bin/login.pl",
@@ -107,6 +111,8 @@ Action()
         "Group=1",
         "Ordinal=All",
    	LAST);
+	
+	web_reg_find("Text=User wants the intineraries.  Since user has already logged on",LAST);
 
 	web_url("Itinerary Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
@@ -121,7 +127,8 @@ Action()
 	lr_end_transaction("search_Itinerary", LR_AUTO);
 	
 	lr_start_transaction("delete_Itinerary");
-
+	
+	web_reg_find("Text={flightID}","Fail=Found", LAST);
 	
 		web_submit_form("itinerary.pl",
 		"Snapshot=t4.inf",

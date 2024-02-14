@@ -13,10 +13,10 @@
     <FileEntry Name="default.usp" Filter="4" />
     <FileEntry Name="UC5_Delete_From_Itinerary.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
-    <FileEntry Name="RegUser.dat" Filter="2" />
     <FileEntry Name="combined_UC5_Delete_From_Itinerary.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="130417587440.idx" Filter="1" />
+    <FileEntry Name="1752255440.idx" Filter="1" />
     <FileEntry Name="265515740440.idx" Filter="1" />
     <FileEntry Name="63722162440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
@@ -28,12 +28,15 @@
     <FileEntry Name="login.dat" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv1JS.305.log" Filter="1" />
+    <FileEntry Name="mdrvGLn.959.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
     <FileEntry Name="password.dat" Filter="1" />
+    <FileEntry Name="RegUser.dat" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />

@@ -2774,7 +2774,6 @@ Action()
 				   "Ord=ALL",
 				   "LAST");
 	
-	 
 	
 	web_reg_find("Text=Flight departing from <B>{CityDep}</B> to <B>{CityArr}</B> on <B>{departDate}</B>", "LAST");
 	

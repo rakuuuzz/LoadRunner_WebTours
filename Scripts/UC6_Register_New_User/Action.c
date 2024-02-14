@@ -1,27 +1,5 @@
 Action()
-{
-//	char login[255] = {0};
-//	int i = 0 ,j = 0;
-//	
-//	char RandomLetter[3] = {0};
-//	//int RandomNum = "0123456789"[random()%9];
-//	
-//	for(i =0; i < 5; i++)
-//	{
-//		RandomLetter[i] = rand()%26+'a'; 
-//		for(j =0; j < 5; j++) { RandomNum[j] += rand()%8; }
-//	}
-//	
-//	lr_save_string(lr_eval_string("{login}"), "login");
-//	sprintf(login, "%s%c%d", lr_eval_string("{login}"), RandomLetter, RandomNum);
-//	
-//	lr_save_string(login,"newlogin");
-//	
-//	for (i = 0; i < 9; i++) { login[i] = 'A' + rand() % 26; }
-//	login[9] = '\0';
-//		
-//	lr_save_string(login, "newlogin");
-	
+{	
 	char name[10]={0};
 	char newlastName[10]={0};
 	char newfirstName[10]={0};
@@ -32,7 +10,7 @@ Action()
 		name[i] = rand()%26+'a';
 	}
 	
-		for(j = 0; j < 5; j++)
+	for(j = 0; j < 5; j++)
 	{
 		newlastName[j] = rand()%26+'a';
 		newfirstName[j] = rand()%26+'a';
@@ -96,6 +74,8 @@ Action()
 
 	lr_think_time(4);
 	
+	web_reg_find("Text=User Information",LAST);
+	
 	web_url("sign up now", 
 		"URL=http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true", 
 		"TargetFrame=body", 
@@ -154,6 +134,8 @@ Action()
 
 	web_add_header("Sec-Fetch-User", 
 		"?1");
+	
+	web_reg_find("Text=User has returned to the home page",LAST);
 
 	web_url("button_next.gif", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
