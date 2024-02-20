@@ -1,0 +1,43 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2020.0.0.0
+Path=C:\Users\Andrey.Home-PC\LoadRunner_WebTours\Scenario\debug.lrs
+Subject=Scenario1
+Result_file=c:\users\andrey.home-pc\appdata\local\temp\res2\res2.lrr
+Description=
+ResultName=res2
+Time_Zone=-10800
+Start_time=1708452155
+Daylight_Bias=0
+Stop_time=1708453533
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Stop all Vusers simultaneously
+Load Behavior=Initialize each Vuser just before it runs
+Global Schedule=ST10_1E5;R1320;SP10;
+[Scripts]
+uc3_book_flights_1=C:\Users\Andrey.Home-PC\LoadRunner_WebTours\Scripts\UC3_Book_Flights\UC3_Book_Flights.usr
+uc2_flights_list_wo_payment_1=C:\Users\Andrey.Home-PC\LoadRunner_WebTours\Scripts\UC2_Flights_List_wo_Payment\UC2_Flights_List_wo_Payment.usr
+uc6_register_new_user_1=C:\Users\Andrey.Home-PC\LoadRunner_WebTours\Scripts\UC6_Register_New_User\UC6_Register_New_User.usr
+uc5_delete_from_itinerary_1=C:\Users\Andrey.Home-PC\LoadRunner_WebTours\Scripts\UC5_Delete_From_Itinerary\UC5_Delete_From_Itinerary.usr
+uc1_login_logout_1_1=C:\Users\Andrey.Home-PC\LoadRunner_WebTours\Scripts\UC1_Login\UC1_Login.usr
+uc4_itinerary_list_1=C:\Users\Andrey.Home-PC\LoadRunner_WebTours\Scripts\UC4_Itinerary_List\UC4_Itinerary_List.usr
+[Scripts_types]
+uc3_book_flights_1=Multi+QTWeb
+uc2_flights_list_wo_payment_1=Multi+QTWeb
+uc6_register_new_user_1=Multi+QTWeb
+uc5_delete_from_itinerary_1=Multi+QTWeb
+uc1_login_logout_1_1=Multi+QTWeb
+uc4_itinerary_list_1=Multi+QTWeb

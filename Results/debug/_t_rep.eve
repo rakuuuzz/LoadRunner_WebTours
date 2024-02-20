@@ -1,0 +1,53 @@
+28 11 1708452155 2 362153528 -135651780 1699564
+28 4 UC3_Book_Flights 1 1708452156 0 uc3_book_flights_1 localhost 0 1
+28 10 localhost 28 0 0
+28 0 UC3_Book_Flights 1 1708452156 0 localhost 0
+28 8 UC3_Book_Flights 1  0 0
+28 2 UC3_Book_Flights 1 1708452156 0 p 0 0
+28 4 UC2_Flights_List_wo_Payment 1 1708452161 0 uc2_flights_list_wo_payment_1 localhost 0 1
+28 0 UC2_Flights_List_wo_Payment 1 1708452161 0 localhost 0
+28 8 UC2_Flights_List_wo_Payment 1  0 0
+28 2 UC2_Flights_List_wo_Payment 1 1708452161 0 p 0 0
+28 4 UC6_Register_New_User 1 1708452166 0 uc6_register_new_user_1 localhost 0 1
+28 0 UC6_Register_New_User 1 1708452166 0 localhost 0
+28 8 UC6_Register_New_User 1  0 0
+28 2 UC6_Register_New_User 1 1708452166 0 p 0 0
+28 4 UC5_Delete_From_Itinerary 1 1708452171 0 uc5_delete_from_itinerary_1 localhost 0 1
+28 0 UC5_Delete_From_Itinerary 1 1708452171 0 localhost 0
+28 8 UC5_Delete_From_Itinerary 1  0 0
+28 2 UC5_Delete_From_Itinerary 1 1708452171 0 p 0 0
+28 4 UC1_Login_Logout 5 1708452176 0 uc1_login_logout_1_1 localhost 0 1
+28 0 UC1_Login_Logout 5 1708452176 0 localhost 0
+28 8 UC1_Login_Logout 5  0 0
+28 2 UC1_Login_Logout 5 1708452176 0 p 0 0
+28 4 UC3_Book_Flights 2 1708452181 0 uc3_book_flights_1 localhost 0 1
+28 0 UC3_Book_Flights 2 1708452181 0 localhost 0
+28 8 UC3_Book_Flights 2  0 0
+28 2 UC3_Book_Flights 2 1708452181 0 p 0 0
+28 4 UC4_Itinerary_List 1 1708452186 0 uc4_itinerary_list_1 localhost 0 1
+28 0 UC4_Itinerary_List 1 1708452186 0 localhost 0
+28 8 UC4_Itinerary_List 1  0 0
+28 2 UC4_Itinerary_List 1 1708452186 0 p 0 0
+28 4 UC2_Flights_List_wo_Payment 3 1708452191 0 uc2_flights_list_wo_payment_1 localhost 0 1
+28 0 UC2_Flights_List_wo_Payment 3 1708452191 0 localhost 0
+28 8 UC2_Flights_List_wo_Payment 3  0 0
+28 2 UC2_Flights_List_wo_Payment 3 1708452191 0 p 0 0
+28 4 UC6_Register_New_User 2 1708452196 0 uc6_register_new_user_1 localhost 0 1
+28 0 UC6_Register_New_User 2 1708452196 0 localhost 0
+28 8 UC6_Register_New_User 2  0 0
+28 2 UC6_Register_New_User 2 1708452196 0 p 0 0
+28 4 UC3_Book_Flights 3 1708452201 0 uc3_book_flights_1 localhost 0 1
+28 0 UC3_Book_Flights 3 1708452201 0 localhost 0
+28 8 UC3_Book_Flights 3  0 0
+28 2 UC3_Book_Flights 3 1708452201 0 p 0 0
+28 1 UC1_Login_Logout 5 1708453521 0 2
+28 1 UC6_Register_New_User 2 1708453521 0 2
+28 1 UC6_Register_New_User 1 1708453521 0 2
+28 1 UC5_Delete_From_Itinerary 1 1708453521 0 2
+28 1 UC3_Book_Flights 3 1708453521 0 2
+28 1 UC4_Itinerary_List 1 1708453521 0 2
+28 1 UC2_Flights_List_wo_Payment 3 1708453521 0 2
+28 1 UC3_Book_Flights 1 1708453521 0 2
+28 1 UC3_Book_Flights 2 1708453521 0 2
+28 1 UC2_Flights_List_wo_Payment 1 1708453533 0 2
+28 12 1708453533 1 1708453533 0 1708453533

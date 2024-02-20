@@ -1,0 +1,140 @@
+Action.c(162):     \n
+Action.c(162):     <BR><BR><center>\n
+Action.c(162):     \n
+Action.c(162):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+Action.c(162):     RC="/WebTours/images/flights.gif" \n
+Action.c(162):     ALT="Search Flights Button"/></A>\n
+Action.c(162):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+Action.c(162):     WebTours/images/in_itinerary.gif" \n
+Action.c(162):     ALT="Itinerary Button"/></A>\n
+Action.c(162):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+Action.c(162):     ours/images/home.gif" \n
+Action.c(162):     ALT="Home Button"/></A>\n
+Action.c(162):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+Action.c(162):     es/signoff.gif" \n
+Action.c(162):     ALT="SignOff Button"/></A></center>\n
+Action.c(162):     \n
+Action.c(162):     </body>\n
+Action.c(162):     </html>\n
+Action.c(162): Resource "http://localhost:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(162): Found resource "http://localhost:1080/WebTours/images/in_itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action.c(162): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action.c(162): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(162): t=635418ms: Already connected [3] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(162): t=635418ms: 619-byte request headers for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=216)
+Action.c(162):     GET /WebTours/images/home.gif HTTP/1.1\r\n
+Action.c(162):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary\r\n
+Action.c(162):     Sec-Fetch-Dest: frame\r\n
+Action.c(162):     Sec-Fetch-Site: same-origin\r\n
+Action.c(162):     Sec-Fetch-Mode: navigate\r\n
+Action.c(162):     DNT: 1\r\n
+Action.c(162):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(162):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:94.0) Gecko/20100101 Firefox/94.0
+Action.c(162):     \r\n
+Action.c(162):     Accept-Encoding: gzip, deflate\r\n
+Action.c(162):     Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\r\n
+Action.c(162):     Accept: */*\r\n
+Action.c(162):     Connection: Keep-Alive\r\n
+Action.c(162):     Host: localhost:1080\r\n
+Action.c(162):     Cookie: MSO=SID&1708463060; MTUserInfo=firstName&ffjnw&address2&belle&username&womfvrlip&h
+Action.c(162):     ash&80&lastName&pkunh&address1&456MainSt.&creditCard&&expDate&\r\n
+Action.c(162):     \r\n
+Action.c(162): t=635418ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(162): t=635418ms: 627-byte request headers for "http://localhost:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=215)
+Action.c(162):     GET /WebTours/images/in_itinerary.gif HTTP/1.1\r\n
+Action.c(162):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary\r\n
+Action.c(162):     Sec-Fetch-Dest: frame\r\n
+Action.c(162):     Sec-Fetch-Site: same-origin\r\n
+Action.c(162):     Sec-Fetch-Mode: navigate\r\n
+Action.c(162):     DNT: 1\r\n
+Action.c(162):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(162):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:94.0) Gecko/20100101 Firefox/94.0
+Action.c(162):     \r\n
+Action.c(162):     Accept-Encoding: gzip, deflate\r\n
+Action.c(162):     Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\r\n
+Action.c(162):     Accept: */*\r\n
+Action.c(162):     Connection: Keep-Alive\r\n
+Action.c(162):     Host: localhost:1080\r\n
+Action.c(162):     Cookie: MSO=SID&1708463060; MTUserInfo=firstName&ffjnw&address2&belle&username&womfvrlip&h
+Action.c(162):     ash&80&lastName&pkunh&address1&456MainSt.&creditCard&&expDate&\r\n
+Action.c(162):     \r\n
+Action.c(162): t=635418ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=213)
+Action.c(162):     0\r\n
+Action.c(162):     \r\n
+Action.c(162): t=635418ms: Request done "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26000]
+Action.c(162): t=635418ms: 297-byte response headers for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=216)
+Action.c(162):     HTTP/1.1 200 OK\r\n
+Action.c(162):     Date: Tue, 20 Feb 2024 21:04:33 GMT\r\n
+Action.c(162):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(162):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+Action.c(162):     ETag: "200000004c465-2b0-4b654c052c2c0"\r\n
+Action.c(162):     Accept-Ranges: bytes\r\n
+Action.c(162):     Content-Length: 688\r\n
+Action.c(162):     Keep-Alive: timeout=5, max=99\r\n
+Action.c(162):     Connection: Keep-Alive\r\n
+Action.c(162):     Content-Type: image/gif\r\n
+Action.c(162):     \r\n
+Action.c(162): t=635418ms: 688-byte response body for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=216)
+Action.c(162): t=635418ms: Request done "http://localhost:1080/WebTours/images/home.gif"  	[MsgId: MMSG-26000]
+Action.c(162): t=635425ms: 255-byte response headers for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=214)
+Action.c(162):     HTTP/1.1 200 OK\r\n
+Action.c(162):     Date: Tue, 20 Feb 2024 21:04:33 GMT\r\n
+Action.c(162):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(162):     Expires: Mon, 19 Feb 2024 21:04:33 GMT\r\n
+Action.c(162):     Keep-Alive: timeout=5, max=99\r\n
+Action.c(162):     Connection: Keep-Alive\r\n
+Action.c(162):     Transfer-Encoding: chunked\r\n
+Action.c(162):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(162):     \r\n
+Action.c(162): t=635425ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=214)
+Action.c(162):     377\r\n
+Action.c(162): t=635425ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=214)
+Action.c(162):     \r\n
+Action.c(162): t=635425ms: 887-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=214)
+Action.c(162):     <!DOCTYPE html\n
+Action.c(162):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(162):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(162):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(162):     <head>\n
+Action.c(162):     <title>Flights List</title>\n
+Action.c(162):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(162):     </head>\n
+Action.c(162):     <body bgcolor="#E0E7F1">\n
+Action.c(162):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+Action.c(162):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+Action.c(162):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}
+Action.c(162):     </style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Itinerary</font></b></h1><block
+Action.c(162):     quote><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded
+Action.c(162):     ">\n
+Action.c(162):     <center><H3>No flights have been reserved.</H3></center>\n
+Action.c(162):     </form>\n
+Action.c(162):     \n
+Action.c(162):     </center>\n
+Action.c(162):     \n
+Action.c(162):     </body>\n
+Action.c(162):     </html>
+Action.c(162): t=635426ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=214)
+Action.c(162):     0\r\n
+Action.c(162):     \r\n
+Action.c(162): t=635426ms: Request done "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26000]
+Action.c(162): t=635437ms: 297-byte response headers for "http://localhost:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=215)
+Action.c(162):     HTTP/1.1 200 OK\r\n
+Action.c(162):     Date: Tue, 20 Feb 2024 21:04:33 GMT\r\n
+Action.c(162):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(162):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+Action.c(162):     ETag: "200000004c469-2dd-4b654c052c2c0"\r\n
+Action.c(162):     Accept-Ranges: bytes\r\n
+Action.c(162):     Content-Length: 733\r\n
+Action.c(162):     Keep-Alive: timeout=5, max=96\r\n
+Action.c(162):     Connection: Keep-Alive\r\n
+Action.c(162):     Content-Type: image/gif\r\n
+Action.c(162):     \r\n
+Action.c(162): t=635437ms: 733-byte response body for "http://localhost:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=215)
+Action.c(162): t=635437ms: Request done "http://localhost:1080/WebTours/images/in_itinerary.gif"  	[MsgId: MMSG-26000]
+Action.c(162): Registered web_reg_find successful for "Text=User wants the intineraries.  Since user has already logged on" (count=1)  	[MsgId: MMSG-26364]
+Action.c(162): web_url("Itinerary Button") was successful, 4381 body bytes, 1319 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(172): Notify: Transaction "search_Itinerary" ended with a "Pass" status (Duration: 0,0715 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+Action.c(175): Notify: Transaction "UC6_Register_New_Users" ended with a "Pass" status (Duration: 13,3103 Think Time: 13,0021 Wasted Time: 0,0001).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 9.	[MsgId: MMSG-15965]
+Waiting 60,6880 seconds for iteration pacing.	[MsgId: MMSG-15996]

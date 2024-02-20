@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\Users\Andrey.Home-PC\LoadRunner_WebTours\Scenario\debug.lrs
+Completed=0

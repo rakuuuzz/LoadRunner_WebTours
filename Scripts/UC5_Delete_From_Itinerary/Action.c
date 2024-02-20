@@ -139,29 +139,6 @@ Action()
 		LAST);
 	
 	lr_end_transaction("delete_Itinerary", LR_AUTO);
-	
-		lr_start_transaction("Logout");
-
-	web_revert_auto_header("Sec-Fetch-User");
-
-	web_add_header("Upgrade-Insecure-Requests", 
-		"1");
-
-	lr_think_time(4);
-
-	web_reg_find("Text=Welcome to the Web Tours site.",LAST);
-	
-	web_url("SignOff Button", 
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-		"TargetFrame=body", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
-		"Snapshot=t7.inf", 
-		"Mode=HTML", 
-		LAST);
-	
-	lr_end_transaction("Logout", LR_AUTO);
 
 
 
