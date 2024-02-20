@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Andrey.Home-PC\LoadRunner_WebTours\Scripts\UC6_Register_New_User
+-ID:\Program Files\LoadRunner\include
+-ec:\users\andrey.home-pc\loadrunner_webtours\scripts\uc6_register_new_user\\logfile.log
+c:\users\andrey.home-pc\loadrunner_webtours\scripts\uc6_register_new_user\\combined_UC6_Register_New_User.c
+c:\users\andrey.home-pc\loadrunner_webtours\scripts\uc6_register_new_user\\pre_cci.c

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Andrey.Home-PC\LoadRunner_WebTours\Scripts\UC2_Flights_List_wo_Payment
+-ID:\Program Files\LoadRunner\include
+-ec:\users\andrey.home-pc\loadrunner_webtours\scripts\uc2_flights_list_wo_payment\\logfile.log
+c:\users\andrey.home-pc\loadrunner_webtours\scripts\uc2_flights_list_wo_payment\\combined_UC2_Flights_List_wo_Payment.c
+c:\users\andrey.home-pc\loadrunner_webtours\scripts\uc2_flights_list_wo_payment\\pre_cci.c

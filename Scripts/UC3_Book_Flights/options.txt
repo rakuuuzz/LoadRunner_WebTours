@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Andrey.Home-PC\LoadRunner_WebTours\Scripts\UC3_Book_Flights
+-ID:\Program Files\LoadRunner\include
+-ec:\users\andrey.home-pc\loadrunner_webtours\scripts\uc3_book_flights\\logfile.log
+c:\users\andrey.home-pc\loadrunner_webtours\scripts\uc3_book_flights\\combined_UC3_Book_Flights.c
+c:\users\andrey.home-pc\loadrunner_webtours\scripts\uc3_book_flights\\pre_cci.c

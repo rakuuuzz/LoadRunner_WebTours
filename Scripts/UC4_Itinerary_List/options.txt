@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Andrey.Home-PC\LoadRunner_WebTours\Scripts\UC4_Itinerary_List
+-ID:\Program Files\LoadRunner\include
+-ec:\users\andrey.home-pc\loadrunner_webtours\scripts\uc4_itinerary_list\\logfile.log
+c:\users\andrey.home-pc\loadrunner_webtours\scripts\uc4_itinerary_list\\combined_UC4_Itinerary_List.c
+c:\users\andrey.home-pc\loadrunner_webtours\scripts\uc4_itinerary_list\\pre_cci.c

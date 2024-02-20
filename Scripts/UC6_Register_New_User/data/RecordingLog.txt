@@ -1,0 +1,916 @@
+[API Trapper      (6c28:6d70)] Recording in 64-bit mode: C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+[API Trapper      (6394:4234)] Recording in 64-bit mode: C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+[Network Analyzer (6394:6cc0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (6394:6cc0)] Load Network Traffic Analyzers:
+[Network Analyzer (6394:6cc0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (6394:6cc0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (6394:6cc0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (6394:6cc0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (6394:6cc0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (6394:6cc0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (6394:6cc0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (6394:74cc)] Address lookup for Home-PC = 192.168.56.1
+[Net An. Debug    (6394:74cc)] IP address belongs to the VirtualBox, taking the another interface with ip=192.168.1.36
+[API Trapper      (5648:698c)] Recording in 64-bit mode: C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+[Network Analyzer (6394:6cc0)] Establish Listener @ 127.0.0.1:14254
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 127.0.0.1:14254   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 15 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.160.144.191:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /WebTours/"   
+[Network Analyzer (6394:74cc)]   (Sid:  3) Client -> Server @ : 464 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  3) Server -> Client : 664 bytes  (Service=HTTP)
+[Network Analyzer (6394:62e0)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 35.244.181.201:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:62e0)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:1588)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.117.237.239:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (6394:1588)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6a84)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 216.58.210.170:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /WebTours/header.html"   
+[Network Analyzer (6394:74cc)]   (Sid:  6) Client -> Server @ : 515 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  6) Server -> Client : 1008 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (6394:6a84)] SSLAccept(ssl_id = 2562495947168 = 00000254A0A921A0) Failed, ctx = 00000254A099F2F0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (6394:6a84)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394: 74c)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.107.243.93:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:3a54)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:74cc)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.149.100.209:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (6394: 74c)] SSLAccept(ssl_id = 2562496154800 = 00000254A0AC4CB0) Failed, ctx = 00000254A0AAEFC0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Net An. Error    (6394: 74c)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (6394:3a54)] SSLAccept(ssl_id = 2562495141216 = 00000254A09CD560) Failed, ctx = 0000025491A77820, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Net An. Error    (6394:3a54)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /favicon.ico"   
+[Network Analyzer (6394:74cc)]   (Sid: 12) Client -> Server @ : 415 bytes (Service=HTTP)
+[Web Request      (6394:74cc)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (6394:74cc)]   (Sid: 11) Client -> Server @ : 443 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 12) Server -> Client : 425 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 11) Server -> Client : 4487 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:1578)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:74cc)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (6394:74cc)]   (Sid: 13) Client -> Server @ : 442 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:74cc)]   (Sid: 13) Server -> Client : 899 bytes  (Service=HTTP)
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (6394:74cc)]   (Sid: 16) Client -> Server @ : 526 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 16) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid: 16) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.107.221.82:80   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /canonical.html"   
+[Network Analyzer (6394:74cc)]   (Sid: 17) Client -> Server @ : 322 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 17) Server -> Client : 298 bytes  (Service=HTTP)
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.107.243.93:443   (Service=)  (Sid= 18)  PROXIED!
+[Net An. Error    (6394:1578)] SSLAccept(ssl_id = 2562495638704 = 00000254A0A46CB0) Failed, ctx = 00000254A0AA7A40, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (6394:1578)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (6394:74cc)]   (Sid: 11) Client -> Server @ : 567 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /WebTours/home.html"   
+[Network Analyzer (6394:74cc)]   (Sid: 16) Client -> Server @ : 563 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 16) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 11) Server -> Client : 1750 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid: 11) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (6394:1180)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:74cc)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (6394:74cc)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 52.11.178.236:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (6394:1180)] SSLAccept(ssl_id = 2562495141216 = 00000254A09CD560) Failed, ctx = 0000025491A77820, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Net An. Error    (6394:1180)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (6394:74cc)]   (Sid: 11) Client -> Server @ : 474 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 11) Server -> Client : 976 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.107.221.82:80   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /canonical.html"   
+[Network Analyzer (6394:74cc)]   (Sid: 20) Client -> Server @ : 322 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 20) Server -> Client : 298 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:5210)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:123c)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:123c)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /cgi-bin/login.pl?username=&password=&getInfo=true"   
+[Network Analyzer (6394:74cc)]   (Sid: 11) Client -> Server @ : 601 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (6394:5210)] SSLAccept(ssl_id = 2562496041808 = 00000254A0AA9350) Failed, ctx = 00000254A0AC3510, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (6394:5210)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 11) Server -> Client : 2664 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid: 11) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (6394:7370)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:74cc)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.107.221.82:80   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /canonical.html"   
+[Network Analyzer (6394:74cc)]   (Sid: 23) Client -> Server @ : 322 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:7370)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /WebTours/profileValidate.js"   
+[Network Analyzer (6394:74cc)]   (Sid: 11) Client -> Server @ : 478 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 11) Server -> Client : 11601 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (6394:74cc)]   (Sid: 11) Client -> Server @ : 503 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid: 11) Server -> Client : 1055 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 23) Server -> Client : 298 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.107.221.82:80   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /success.txt?ipv4"   
+[Network Analyzer (6394:74cc)]   (Sid: 24) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 24) Server -> Client : 216 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.107.243.93:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:64f8)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (6394:64f8)] SSLAccept(ssl_id = 2562496019760 = 00000254A0AA3D30) Failed, ctx = 0000025491A77820, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (6394:64f8)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /canonical.html"   
+[Network Analyzer (6394:74cc)]   (Sid: 23) Client -> Server @ : 322 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid: 23) Server -> Client : 298 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /success.txt?ipv4"   
+[Network Analyzer (6394:74cc)]   (Sid: 24) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 24) Server -> Client : 216 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:7b28)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 4 bytes 
+[Network Analyzer (6394:7b28)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (6394:6954)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (6394:6954)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:7114)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /canonical.html"   
+[Network Analyzer (6394:74cc)]   (Sid: 23) Client -> Server @ : 322 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:7114)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:7580)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:74cc)]   (Sid: 23) Server -> Client : 298 bytes  (Service=HTTP)
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:7580)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394: 718)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 33)  PROXIED!
+[Web Request      (6394:74cc)] "GET /success.txt?ipv4"   
+[Network Analyzer (6394:74cc)]   (Sid: 24) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /canonical.html"   
+[Network Analyzer (6394:74cc)]   (Sid: 23) Client -> Server @ : 322 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394: 718)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:7100)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:74cc)]   (Sid: 24) Server -> Client : 216 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid: 23) Server -> Client : 298 bytes  (Service=HTTP)
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6720)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:7100)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:6720)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /success.txt?ipv4"   
+[Network Analyzer (6394:74cc)]   (Sid: 24) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:680c)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /canonical.html"   
+[Network Analyzer (6394:74cc)]   (Sid: 23) Client -> Server @ : 322 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:680c)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 24) Server -> Client : 216 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 23) Server -> Client : 298 bytes  (Service=HTTP)
+[Network Analyzer (6394:45d4)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (6394:74cc)] "GET /success.txt?ipv4"   
+[Network Analyzer (6394:74cc)]   (Sid: 24) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:45d4)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /canonical.html"   
+[Network Analyzer (6394:74cc)]   (Sid: 23) Client -> Server @ : 322 bytes (Service=HTTP)
+[Network Analyzer (6394:17dc)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:17dc)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (6394:74cc)]   (Sid: 24) Server -> Client : 216 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 23) Server -> Client : 298 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /success.txt?ipv4"   
+[Network Analyzer (6394:74cc)]   (Sid: 24) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 24) Server -> Client : 216 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid: 29) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid: 30) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid: 31) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid: 32) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid: 33) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid: 35) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid: 34) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 34.107.243.93:443   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6df8)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (6394:6df8)] SSLAccept(ssl_id = 2562614642912 = 00000254A7BC48E0) Failed, ctx = 0000025491A77820, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (6394:6df8)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /canonical.html"   
+[Network Analyzer (6394:74cc)]   (Sid: 23) Client -> Server @ : 322 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid: 23) Server -> Client : 298 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /success.txt?ipv4"   
+[Network Analyzer (6394:74cc)]   (Sid: 24) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 24) Server -> Client : 216 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 36) Connection Terminated (by Client)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (6394:74cc)]   (Sid: 37) Client -> Server @ : 856 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 37) Server -> Client : 1462 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid: 37) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /cgi-bin/welcome.pl?page=menus"   
+[Network Analyzer (6394:74cc)]   (Sid: 37) Client -> Server @ : 705 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid: 37) Server -> Client : 818 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid: 37) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (6394:74cc)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (6394:74cc)]   (Sid: 37) Client -> Server @ : 701 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (6394:74cc)]   (Sid: 38) Client -> Server @ : 696 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid: 38) Server -> Client : 1157 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid: 38) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 37) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid: 37) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (6394:74cc)]   (Sid: 37) Client -> Server @ : 608 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (6394:74cc)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (6394:74cc)]   (Sid: 38) Client -> Server @ : 610 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (6394:74cc)]   (Sid: 38) Server -> Client : 1030 bytes  (Service=HTTP)
+[Web Request      (6394:74cc)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (6394:74cc)]   (Sid: 39) Client -> Server @ : 608 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 39) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:6cc0)] Address lookup for Home-PC = 192.168.56.1
+[Network Analyzer (6394:6cc0)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 40)  PROXIED!
+[Web Request      (6394:74cc)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (6394:74cc)]   (Sid: 38) Client -> Server @ : 608 bytes (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 38) Server -> Client : 1048 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid: 37) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (6394:74cc)]   (Sid:  2) Client -> Server @ : 1 bytes 

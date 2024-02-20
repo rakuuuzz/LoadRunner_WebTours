@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Andrey.Home-PC\LoadRunner_WebTours\Scripts\UC1_Login
+-ID:\Program Files\LoadRunner\include
+-ec:\users\andrey.home-pc\loadrunner_webtours\scripts\uc1_login\\logfile.log
+c:\users\andrey.home-pc\loadrunner_webtours\scripts\uc1_login\\combined_UC1_Login.c
+c:\users\andrey.home-pc\loadrunner_webtours\scripts\uc1_login\\pre_cci.c
