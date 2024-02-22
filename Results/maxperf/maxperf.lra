@@ -1,12 +1,12 @@
 ﻿[Workspace]
 SessionStartTime=0
-SessionEndTime=3725
+SessionEndTime=3934
 VerNo=13
 IsSummaryData=0
 TimeFormat=0
 SesLang=RUS
 ABuild=0
-DataBaseName=mexp54625966DB
+DataBaseName=maxp366248774DB
 DBType=1
 CurrServer=HOME-PC
 CurrUser=sa
@@ -38,13 +38,13 @@ FEndTime=84600
 
 [Result0]
 LRRID=
-ResultPath=c:\Users\Andrey.Home-PC\AppData\Local\Temp\mexperf\mexperf.lrr
+ResultPath=c:\Users\Andrey.Home-PC\AppData\Local\Temp\maxperftest\maxperftest.lrr
 ResultTDPath=
 NumFilters=0
 ScenarioTimeZone=-10800
 DaylightSavingSecsAddition=0
-ScenarioStartTime=1707547555
-ScenarioEndTime=1707551280
+ScenarioStartTime=1708639325
+ScenarioEndTime=1708643259
 ResInSD=0
 WebGran=5
 FilterEdge=0
@@ -58,8 +58,8 @@ Scenario Type=Manual
 Schedule Name=Schedule 1
 Mode=Scenario Scheduling
 Load Behavior=Initialize each Vuser just before it runs
-Scenario Duration=Start 10 Vusers simultaneously; Run for 01:02:00 (HH:MM:SS); Stop all Vusers simultaneously
-NumGraphs=6
+Scenario Duration=Start 40 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 01:02:00 (HH:MM:SS); Stop all Vusers simultaneously
+NumGraphs=8
 
 [DimensionFunctions]
 DimeFuncCount=0
